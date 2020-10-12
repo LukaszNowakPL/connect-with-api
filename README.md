@@ -1,3 +1,5 @@
+__Note__: This repo is on a very early stage and is not bootstrapped correctly yet.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
