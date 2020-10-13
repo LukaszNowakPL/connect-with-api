@@ -1,5 +1,5 @@
 import {useCallback, useState} from 'react';
-import {getDogsList} from '../../api/dogs/dogs';
+import {getDogsList} from '../../api/dogsApi/dogsApi';
 import {filterDogs} from './useDogsList.helpers';
 
 export const useDogsList = () => {

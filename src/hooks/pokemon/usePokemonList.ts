@@ -1,6 +1,6 @@
 import {useCallback, useState} from 'react';
-import {getPokemonList} from '../../api/pokemon/pokemon';
-import {PokemonListItemDto} from '../../api/pokemon/pokemonDto';
+import {getPokemonList} from '../../api/pokemonApi/pokemonApi';
+import {PokemonListItemDto} from '../../api/pokemonApi/pokemonDto';
 
 export const usePokemonList = () => {
     const [isFetching, setIsFetching] = useState<boolean>(false);

@@ -3,7 +3,7 @@ import {PokemonDetailsPicture} from './PokemonDetailsPicture';
 import {getPictureUrls} from './PokemonDetails.helpers';
 import {pokemonName} from './PokemonDetails.style';
 import {Heading, Stack} from '@chakra-ui/core';
-import {PokemonDetailsDto} from '../../api/pokemon/pokemonDto';
+import {PokemonDetailsDto} from '../../api/pokemonApi/pokemonDto';
 
 interface PokemonDescriptionProps {
     pokemon: PokemonDetailsDto;

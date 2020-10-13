@@ -1,6 +1,6 @@
 import {Button} from '@chakra-ui/core';
 import React from 'react';
-import {PokemonListItemDto} from '../../api/pokemon/pokemonDto';
+import {PokemonListItemDto} from '../../api/pokemonApi/pokemonDto';
 import {pokemonName} from './PokemonList.style';
 
 interface PokemonListItemProps {
