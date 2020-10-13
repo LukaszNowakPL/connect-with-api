@@ -1,7 +1,5 @@
-import Axios from 'axios';
 import {dogsApi} from '../../helpers/constants';
-
-const axios = Axios.create({baseURL: dogsApi});
+import {axios} from '../rest/axios';
 
 export const getDogsList = () => {
     return axios.get(dogsApi);
